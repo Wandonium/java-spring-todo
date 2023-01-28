@@ -1,0 +1,5 @@
+CREATE TABLE todo (
+    id UUID NOT NULL PRIMARY KEY,
+    name TEXT NOT NULL,
+    is_done BOOLEAN NOT NULL
+)
